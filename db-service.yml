@@ -1,0 +1,75 @@
+oracle-driver-class: oracle.jdbc.driver.OracleDriver
+cachePrepStmts: true
+prepStmtCacheSize: 250
+prepStmtCacheSqlLimit: 2048
+idleTimeout: 600000
+maxLifetime: 1800000
+maximumPoolSize: 50
+minimumIdle: 5
+connectionTimeout: 30000
+
+sck-alias: sck
+sck-driver-url: "jdbc:oracle:thin:@10.1.50.205:1521:orcl"
+sck-user: zkfIb5rm0hGiW2ggD3/hmA==
+sck-password: zkfIb5rm0hGiW2ggD3/hmA==
+sck-mode: 7
+sck-cachePrepStmts: true
+sck-prepStmtCacheSize: 250
+sck-prepStmtCacheSqlLimit: 2048
+sck-pool: true
+
+glfx-alias: glfx
+glfx-user: E3KUckIFvJslvskLZn9qJg==
+glfx-password: E3KUckIFvJslvskLZn9qJg==
+glfx-mode: 7
+glfx-pool: false
+
+hive-class: org.apache.hive.jdbc.HiveDriver
+hive2-alias: hive2
+hive2-url: "jdbc:hive2://dw210.localdomain:10000/default"
+hive2-user: root
+hive2-mode: -1
+hive2-pool: false
+hive2-cachePrepStmts: false
+
+hive-test-class: org.apache.hive.jdbc.HiveDriver
+hive2-test-alias: hive2_test
+hive2-test-url: "jdbc:hive2://dw210:2181,dw212:2181/;serviceDiscoveryMode=zookeeper;zookeeperNamespace=hiveserver2"
+hive2-test-user: root
+hive2-test-mode: -1
+hive2-test-pool: false
+hive2-test-cachePrepStmts: false
+
+hive2-dwbd-un: dwbd
+hive2-dwbd-ps: Dareway@242
+
+
+fsdb-alias: fsdb
+fsdb-driver-url: "jdbc:oracle:thin:@10.1.50.201:1521:orcl"
+fsdb-user: GGS/uLY+jwCq+wRU/w2tRg==
+fsdb-password: GGS/uLY+jwCq+wRU/w2tRg==
+fsdb-mode: 7
+fsdb-cachePrepStmts: true
+fsdb-prepStmtCacheSize: 250
+fsdb-prepStmtCacheSqlLimit: 2048
+fsdb-pool: true
+
+sddb-alias: sddb
+sddb-driver-url: "jdbc:oracle:thin:@10.1.50.205:1521:orcl"
+sddb-user: zkfIb5rm0hGiW2ggD3/hmA==
+sddb-password: zkfIb5rm0hGiW2ggD3/hmA==
+sddb-mode: 7
+sddb-cachePrepStmts: true
+sddb-prepStmtCacheSize: 250
+sddb-prepStmtCacheSqlLimit: 2048
+sddb-pool: true
+
+analyzedb-alias: analyzedb
+analyzedb-driver-url: "jdbc:oracle:thin:@10.1.50.205:1521:orcl"
+analyzedb-user: E3KUckIFvJslvskLZn9qJg==
+analyzedb-password: E3KUckIFvJslvskLZn9qJg==
+analyzedb-mode: 7
+analyzedb-cachePrepStmts: true
+analyzedb-prepStmtCacheSize: 250
+analyzedb-prepStmtCacheSqlLimit: 2048
+analyzedb-pool: true

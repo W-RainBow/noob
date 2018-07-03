@@ -1,0 +1,37 @@
+sck:
+    alias: ${sck-alias}
+    driver-url: ${sck-driver-url}
+    driver-class: ${oracle-driver-class}
+    driver-properties: 
+        user: ${sck-user}
+        password: ${sck-password}
+        dataSourceProperties: 
+            cachePrepStmts: ${sck-cachePrepStmts}
+            prepStmtCacheSize: ${sck-prepStmtCacheSize}
+            prepStmtCacheSqlLimit: ${sck-prepStmtCacheSqlLimit}
+    mode: ${sck-mode}
+    pool: ${sck-pool}
+glfx:
+    alias: ${sck-alias}
+    driver-url: ${sck-driver-url}
+    driver-class: ${oracle-driver-class}
+    driver-properties: 
+        user: ${sck-user}
+        password: ${sck-password}
+        dataSourceProperties: 
+            cachePrepStmts: ${sck-cachePrepStmts}
+            prepStmtCacheSize: ${sck-prepStmtCacheSize}
+            prepStmtCacheSqlLimit: ${sck-prepStmtCacheSqlLimit}
+    mode: ${sck-mode}
+    pool: ${sck-pool}
+hive2:
+    alias: ${hive2-alias}
+    driver-url: ${hive2-url}
+    driver-class: ${hive-class}
+    driver-properties: 
+        user: ${hive2-user}
+        password: 
+        dataSourceProperties: 
+            cachePrepStmts: ${hive2-cachePrepStmts}
+    mode: ${hive2-mode}
+    pool: ${hive2-pool}

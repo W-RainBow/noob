@@ -1,1 +1,123 @@
-ssss
+sck:
+    alias: ${sck-alias}
+    driver-url: ${sck-driver-url}
+    driver-class: ${oracle-driver-class}
+    driver-properties: 
+        user: ${sck-user}
+        password: ${sck-password}
+        dataSourceProperties: 
+            cachePrepStmts: ${sck-cachePrepStmts}
+            prepStmtCacheSize: ${sck-prepStmtCacheSize}
+            prepStmtCacheSqlLimit: ${sck-prepStmtCacheSqlLimit}
+    mode: ${sck-mode}
+    pool: ${sck-pool}
+glfx:
+    alias: ${glfx-alias}
+    driver-url: ${sck-driver-url}
+    driver-class: ${oracle-driver-class}
+    driver-properties: 
+        user: ${glfx-user}
+        password: ${glfx-password}
+        dataSourceProperties: 
+            cachePrepStmts: ${sck-cachePrepStmts}
+            prepStmtCacheSize: ${sck-prepStmtCacheSize}
+            prepStmtCacheSqlLimit: ${sck-prepStmtCacheSqlLimit}
+    mode: ${glfx-mode}
+    pool: ${glfx-pool}
+hive2:
+    alias: ${hive2-alias}
+    driver-url: "jdbc:hive2://dw83.localdomain:10000/default"
+    driver-class: ${hive-class}
+    connectionTestQuery: "show databases like default"
+    connectionTimeout: 30000
+    idleTimeout: 600000
+    maxLifetime: 1800000
+    maximumPoolSize: 20
+    minimumIdle: 3
+    kerberos-open: true
+    driver-properties: 
+        user: dwbd
+        password: Dareway@242
+        dataSourceProperties: 
+            cachePrepStmts: ${hive2-cachePrepStmts}
+            type: jdbc
+    mode: ${hive2-mode}
+    pool: ${hive2-pool}
+hive2_test:
+    alias: ${hive2-test-alias}
+    driver-url: ${hive2-test-url}
+    driver-class: ${hive-test-class}
+    driver-properties: 
+        user: ${hive2-test-user}
+        password: 
+        dataSourceProperties: 
+            cachePrepStmts: ${hive2-test-cachePrepStmts}
+    mode: ${hive2-test-mode}
+    pool: ${hive2-test-pool}
+fsdb:
+    alias: ${fsdb-alias}
+    driver-url: ${fsdb-driver-url}
+    driver-class: ${oracle-driver-class}
+    driver-properties: 
+        user: ${fsdb-user}
+        password: ${fsdb-password}
+        connectionTimeout: ${connectionTimeout}
+        idleTimeout: ${idleTimeout}
+        maxLifetime: ${maxLifetime}
+        maximumPoolSize: ${maximumPoolSize}
+        minimumIdle: ${minimumIdle}
+        dataSourceProperties: 
+            cachePrepStmts: ${fsdb-cachePrepStmts}
+            prepStmtCacheSize: ${fsdb-prepStmtCacheSize}
+            prepStmtCacheSqlLimit: ${fsdb-prepStmtCacheSqlLimit}
+    mode: ${fsdb-mode}
+    pool: ${fsdb-pool}
+sddb:
+    alias: ${sddb-alias}
+    driver-url: ${sddb-driver-url}
+    driver-class: ${oracle-driver-class}
+    driver-properties: 
+        user: ${sddb-user}
+        password: ${sddb-password}
+        connectionTimeout: ${connectionTimeout}
+        idleTimeout: ${idleTimeout}
+        maxLifetime: ${maxLifetime}
+        maximumPoolSize: ${maximumPoolSize}
+        minimumIdle: ${minimumIdle}
+        dataSourceProperties: 
+            cachePrepStmts: ${sddb-cachePrepStmts}
+            prepStmtCacheSize: ${sddb-prepStmtCacheSize}
+            prepStmtCacheSqlLimit: ${sddb-prepStmtCacheSqlLimit}
+    mode: ${sddb-mode}
+    pool: ${sddb-pool}
+analyzedb:
+    alias: ${analyzedb-alias}
+    driver-url: ${analyzedb-driver-url}
+    driver-class: ${oracle-driver-class}
+    driver-properties: 
+        user: ${analyzedb-user}
+        password: ${analyzedb-password}
+        connectionTimeout: ${connectionTimeout}
+        idleTimeout: ${idleTimeout}
+        maxLifetime: ${maxLifetime}
+        maximumPoolSize: ${maximumPoolSize}
+        minimumIdle: ${minimumIdle}
+        dataSourceProperties: 
+            cachePrepStmts: ${analyzedb-cachePrepStmts}
+            prepStmtCacheSize: ${analyzedb-prepStmtCacheSize}
+            prepStmtCacheSqlLimit: ${analyzedb-prepStmtCacheSqlLimit}
+    mode: ${analyzedb-mode}
+    pool: ${analyzedb-pool} 
+sck_test:
+    alias: ${sck-alias}
+    driver-url: ${sck-driver-url}
+    driver-class: ${oracle-driver-class}
+    driver-properties: 
+        user: ${sck-user}
+        password: ${sck-password}
+        dataSourceProperties: 
+            cachePrepStmts: ${sck-cachePrepStmts}
+            prepStmtCacheSize: ${sck-prepStmtCacheSize}
+            prepStmtCacheSqlLimit: ${sck-prepStmtCacheSqlLimit}
+    mode: ${sck-mode}
+    pool: ${sck-pool}
