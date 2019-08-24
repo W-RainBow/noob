@@ -1,2 +1,3 @@
-ssssssssssss
-ddddddddddd
+driver-url : jdbc:oracle:thin:@127.0.0.1:8080:oracle 
+user-name : name
+pass-word : 123456
