@@ -2,32 +2,22 @@ driver-url : jdbc:oracle:thin:@127.0.0.1:8080:oracle
 user-name : name4
 pass-word : 444444
 spring : 
-    ds1 : 
-        datastore : 
+    datastore : 
+        aaa : 
             alias : aaa
             driverUrl : aaa
             user : aaa
             password : aaa
             mode : aaa
             pool : aaa
-    ds2 : 
-        datastore : 
+        bbb : 
             alias : bbb
             driverUrl : bbb
             user : bbb
             password : bbb
             mode : bbb
             pool : bbb
-    ds3 : 
-        datastore : 
-            alias : ccc
-            driverUrl : ccc
-            user : ccc
-            password : ccc
-            mode : ccc
-            pool : ccc
-    dbMap : 
-        datastore : 
+        ccc : 
             alias : ccc
             driverUrl : ccc
             user : ccc
