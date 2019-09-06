@@ -26,3 +26,11 @@ spring :
             password : ccc
             mode : ccc
             pool : ccc
+    dbmap : 
+        datastore : 
+            alias : ccc
+            driverUrl : ccc
+            user : ccc
+            password : ccc
+            mode : ccc
+            pool : ccc
